@@ -2,12 +2,12 @@ body {background-color: rgb(245, 245, 245);
         margin: 0;}
 
 
-#box {display:flex;
+.form-container {display:flex;
     justify-content: center;
     align-items:center;
     height: 100vh;}
 
-#signin {display: flex;
+.signin {display: flex;
         flex-direction: column;
         align-items: center;
         border: 2px solid rgb(245, 245, 245);
@@ -18,7 +18,7 @@ body {background-color: rgb(245, 245, 245);
 h1 {font-family: sans-serif;}
 
 
-#inputs {display: flex;
+.inputs {display: flex;
             flex-direction: column;
             gap: 10px;
             }
