@@ -1,47 +1,59 @@
-body {background-color: rgb(245, 245, 245);
-        margin: 0;}
-
-
-.form-container {display:flex;
+body {
+    background-color: rgb(245, 245, 245);
+    margin: 0;
+    height: 100vh;
+    display: flex;
     justify-content: center;
-    align-items:center;
-    height: 100vh;}
+    align-items: center;
+}
 
-.signin {display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: 2px solid rgb(245, 245, 245);
-        border-radius: 7%;
-        padding: 5vh 10vh 5vh 10vh;
-        background-color: white;}
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 7%;
+    padding: 20px 40px 20px 40px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.75);
+}
 
-h1 {font-family: sans-serif;}
+h1 {
+    font-family: sans-serif;
+}
 
 
-.inputs {display: flex;
-            flex-direction: column;
-            gap: 10px;
-            }
-            
-#submitbutton {color:white;
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#submitbutton {
+    color: white;
     background-color: #4167f0;
-    -webkit-box-shadow: inset 10px 10px 50px -25px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 10px 10px 50px -25px rgba(0,0,0,0.75);
-    box-shadow: inset 10px 10px 50px -25px rgba(0,0,0,0.75);
-                margin: 5vh;
-                padding: 2vh;
-                width: 30vh;
-                border-radius: 25px;
-                border-color: #4167f0;}
+    -webkit-box-shadow: inset 10px 10px 50px -25px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 10px 10px 50px -25px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 10px 10px 50px -25px rgba(0, 0, 0, 0.75);
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 25px;
+    border-color: #4167f0;
+}
 
-#username {background: transparent;
+#username {
+    background: transparent;
     border: none;
-    padding-bottom: 1vh;
-    border-bottom: 1px solid #9292927e}
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9292927e
+}
 
-#password {background: transparent;
+#password {
+    background: transparent;
     border: none;
-    padding-bottom: 1vh;
-    border-bottom: 1px solid #9292927e}
-
-
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9292927e
+}
